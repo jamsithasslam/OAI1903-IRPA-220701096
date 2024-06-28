@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1153.3333333333333,1878" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1304,1818" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -98,7 +98,7 @@
       <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="546,1813.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_7">
+  <Sequence sap:VirtualizedContainerService.HintSize="548.5,1753" sap2010:WorkflowViewState.IdRef="Sequence_7">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="WebsiteName" />
       <Variable x:TypeArguments="x:String" Name="RegistrarName" />
@@ -110,24 +110,24 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="484,246" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Enter the URL: " Title="WhoIsBot">
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="486.5,275" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Enter the URL: " Title="WhoIsBot">
       <ui:InputDialog.Result>
         <OutArgument x:TypeArguments="x:String">[WebsiteName]</OutArgument>
       </ui:InputDialog.Result>
     </ui:InputDialog>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Free Whois Lookup - Whois IP Search &amp; Whois Domain Lookup | Whois.com" sap:VirtualizedContainerService.HintSize="484,1416.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="a0a377c3-882e-4a51-a52c-09114d9d4d97" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Free Whois Lookup - Whois IP Search &amp; Whois Domain Lookup | Whois.com" sap:VirtualizedContainerService.HintSize="486.5,1390" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="a0a377c3-882e-4a51-a52c-09114d9d4d97" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1197.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_8">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,1149" sap2010:WorkflowViewState.IdRef="Sequence_8">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT'" sap:VirtualizedContainerService.HintSize="388,157.33333333333334" sap2010:WorkflowViewState.IdRef="TypeInto_2" Text="[WebsiteName]">
+            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT'" sap:VirtualizedContainerService.HintSize="354,188" sap2010:WorkflowViewState.IdRef="TypeInto_2" Text="[WebsiteName]">
               <ui:TypeInto.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="73ad7142-3258-4df1-b226-0d30ece41244" InformativeScreenshot="620dadb28b06188e4c3511d41b6d6929" Selector="&lt;webctrl css-selector='body&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;input' tag='INPUT' /&gt;">
                   <ui:Target.TimeoutMS>
@@ -139,11 +139,11 @@
                 </ui:Target>
               </ui:TypeInto.Target>
             </ui:TypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SEARCH'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a0a377c3-882e-4a51-a52c-09114d9d4d97" Version="V3">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SEARCH'" sap:VirtualizedContainerService.HintSize="354,190" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a0a377c3-882e-4a51-a52c-09114d9d4d97" Version="V3">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://www.whois.com/whois/" CvTextArea="1554, 632, 111, 27" CvTextArgument="SEARCH" CvType="Text" DesignTimeRectangle="1479, 597, 225, 95" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'SEARCH'" FullSelectorArgument="&lt;webctrl aaname='SEARCH' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='SEARCH' tag='BUTTON' type='submit' class='btn btn-vendor' check:innerText='SEARCH' /&gt;" Guid="7edc73b6-b677-4659-b926-3161842f7245" InformativeScreenshot="83fc8e3beea46091214ae8ba8135b1b7.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Free Whois Lookup - Whois IP Search &amp;amp; Whois Domain Lookup | Whois.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CvElementArea="1479, 595, 226, 100" CvTextArea="1554, 632, 111, 27" CvTextArgument="SEARCH" CvType="Button" DesignTimeRectangle="1546, 624, 121, 41" ElementType="Text" FriendlyName="'SEARCH'" FullSelectorArgument="&lt;webctrl aaname='SEARCH' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='SEARCH' tag='SPAN' type='' class='' check:innerText='SEARCH' /&gt;" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
@@ -153,40 +153,40 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NGetText DisplayName="Get Text 'Registrar'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="a0a377c3-882e-4a51-a52c-09114d9d4d97" TextString="[RegistrarName]" Version="V3">
+            <uix:NGetText DisplayName="Get Text 'Registrar'" sap:VirtualizedContainerService.HintSize="354,190" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="a0a377c3-882e-4a51-a52c-09114d9d4d97" TextString="[RegistrarName]" Version="V3">
               <uix:NGetText.Target>
                 <uix:TargetAnchorable BrowserURL="https://www.whois.com/whois/jamzz.com" CvTextArea="366, 522, 203, 33" CvType="AnyWordGroup" DesignTimeRectangle="368, 522, 913, 34" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'GoDaddy.com, LLC'" FullSelectorArgument="&lt;webctrl aaname='GoDaddy.com, LLC' class='df-value' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='df-value' tag='DIV' type='' /&gt;" Guid="eb6fc27c-d419-4f8a-bdbf-674ed3a9fdbc" InformativeScreenshot="b653583dab4b0770fd92270292b2c376.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Whois jamzz.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CvTextArea="156, 527, 102, 28" CvTextArgument="Registrar:" CvType="Text" DesignTimeRectangle="158, 522, 210, 34" ElementType="Text" FriendlyName="'Registrar'" FullSelectorArgument="&lt;webctrl aaname='Registrar:' class='df-label' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Registrar:' class='df-label' tag='DIV' type='' check:innerText='Registrar:' /&gt;" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
               </uix:NGetText.Target>
             </uix:NGetText>
-            <uix:NGetText DisplayName="Get Text 'Registered On'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="a0a377c3-882e-4a51-a52c-09114d9d4d97" TextString="[RegisteredOn]" Version="V3">
+            <uix:NGetText DisplayName="Get Text 'Registered On'" sap:VirtualizedContainerService.HintSize="354,190" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="a0a377c3-882e-4a51-a52c-09114d9d4d97" TextString="[RegisteredOn]" Version="V3">
               <uix:NGetText.Target>
                 <uix:TargetAnchorable BrowserURL="https://www.whois.com/whois/jamzz.com" CvTextArea="366, 585, 120, 22" CvType="AnyWordGroup" DesignTimeRectangle="368, 580, 913, 34" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'2004-08-17'" FullSelectorArgument="&lt;webctrl aaname='2004-08-17' class='df-value' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='df-value' tag='DIV' type='' /&gt;" Guid="cb219223-9841-40f2-9271-1b1717b2cb71" InformativeScreenshot="8941476b3e280e53fee53e32d78a9faf.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Whois jamzz.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CvTextArea="156, 585, 156, 27" CvTextArgument="Registered On:" CvType="Text" DesignTimeRectangle="158, 580, 210, 34" ElementType="Text" FriendlyName="'Registered On'" FullSelectorArgument="&lt;webctrl aaname='Registered On:' class='df-label' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Registered On:' class='df-label' tag='DIV' type='' check:innerText='Registered On:' /&gt;" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
               </uix:NGetText.Target>
             </uix:NGetText>
-            <uix:NGetText DisplayName="Get Text 'Expires On'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="a0a377c3-882e-4a51-a52c-09114d9d4d97" TextString="[Expiry]" Version="V3">
+            <uix:NGetText DisplayName="Get Text 'Expires On'" sap:VirtualizedContainerService.HintSize="354,190" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="a0a377c3-882e-4a51-a52c-09114d9d4d97" TextString="[Expiry]" Version="V3">
               <uix:NGetText.Target>
                 <uix:TargetAnchorable BrowserURL="https://www.whois.com/whois/jamzz.com" CvTextArea="366, 644, 120, 22" CvType="AnyWordGroup" DesignTimeRectangle="368, 639, 913, 34" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'2025-08-17'" FullSelectorArgument="&lt;webctrl aaname='2025-08-17' class='df-value' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='df-value' tag='DIV' type='' /&gt;" Guid="ca829a5a-0a4f-4d94-a4e8-9856c8bda8a1" InformativeScreenshot="4573b96f2288aa54d6b96cbb3a7fa354.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Whois jamzz.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CvTextArea="156, 644, 121, 28" CvTextArgument="Expires On:" CvType="Text" DesignTimeRectangle="158, 639, 210, 34" ElementType="Text" FriendlyName="'Expires On'" FullSelectorArgument="&lt;webctrl aaname='Expires On:' class='df-label' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Expires On:' class='df-label' tag='DIV' type='' check:innerText='Expires On:' /&gt;" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
               </uix:NGetText.Target>
             </uix:NGetText>
-            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="388,86.66666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Domain Name:&quot; &amp; WebsiteName &amp; Environment.NewLine &amp;&#xD;&#xA;&quot;Registrar: &quot; &amp; RegistrarName &amp; Environment.NewLine &amp;&#xD;&#xA;&quot;Registered On:&quot; &amp; RegisteredOn &amp; Environment.NewLine &amp;&#xD;&#xA;&quot;Expires On:&quot; &amp; Expiry]" />
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box1" sap:VirtualizedContainerService.HintSize="354,111" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Domain Name:&quot; &amp; WebsiteName &amp; Environment.NewLine &amp;&#xA;&quot;Registrar: &quot; &amp; RegistrarName &amp; Environment.NewLine &amp;&#xA;&quot;Registered On:&quot; &amp; RegisteredOn &amp; Environment.NewLine &amp;&#xA;&quot;Expires On:&quot; &amp; Expiry]" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
