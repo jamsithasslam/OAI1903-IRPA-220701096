@@ -1,6 +1,6 @@
 {
-  "name": "hello world",
-  "projectId": "660db378-0580-4168-94a4-aded0f3f8cf5",
+  "name": "new",
+  "projectId": "c986199a-e8bc-4380-839c-e413e1186096",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
@@ -50,7 +50,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "55cead7a-f256-405b-b4e1-32a36d65a113",
+      "uniqueId": "f88e3682-db91-47da-8a2b-64ac4a4532b4",
       "input": [],
       "output": []
     }
