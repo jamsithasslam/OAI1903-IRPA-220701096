@@ -1,6 +1,6 @@
 {
-  "name": "new",
-  "projectId": "c986199a-e8bc-4380-839c-e413e1186096",
+  "name": "starting browser",
+  "projectId": "b67947ae-3dd5-4168-ba9b-28ef1903b97d",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
@@ -50,7 +50,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "f88e3682-db91-47da-8a2b-64ac4a4532b4",
+      "uniqueId": "27fcf675-5092-4221-96da-eabea6859b73",
       "input": [],
       "output": []
     }
