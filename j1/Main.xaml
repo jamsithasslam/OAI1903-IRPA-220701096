@@ -98,7 +98,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:Comment sap:VirtualizedContainerService.HintSize="496,88.5" sap2010:WorkflowViewState.IdRef="Comment_1" Text="// Write your comments in the Text property" />
+      <ui:Comment sap:VirtualizedContainerService.HintSize="496,88.5" sap2010:WorkflowViewState.IdRef="Comment_1" Text="jerom&#xD;&#xA;" />
       <Sequence DisplayName="Sequence prompting" sap:VirtualizedContainerService.HintSize="496,661" sap2010:WorkflowViewState.IdRef="Sequence_3">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
