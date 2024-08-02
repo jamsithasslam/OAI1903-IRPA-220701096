@@ -1,6 +1,6 @@
 {
-  "name": "new",
-  "projectId": "0270240a-cc74-482e-9e3c-08cf38e757c1",
+  "name": "input methods",
+  "projectId": "df70e809-49dc-4814-b8da-9a2d2f8164d5",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
@@ -50,7 +50,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "bca63121-6b49-4869-b024-0e952ea703b8",
+      "uniqueId": "fcf12d84-ab75-42a4-a2c5-4a0d3a90f168",
       "input": [],
       "output": []
     }
